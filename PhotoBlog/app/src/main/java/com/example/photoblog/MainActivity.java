@@ -144,8 +144,8 @@ public class MainActivity extends AppCompatActivity {
         outputStream = new DataOutputStream(connection.getOutputStream());
 
         writeFormField(outputStream, boundary, "author", "1");
-        writeFormField(outputStream, boundary, "title", "살려주세요");
-        writeFormField(outputStream, boundary, "text", "하");
+        writeFormField(outputStream, boundary, "title", "파이썬애니웨어 연동");
+        writeFormField(outputStream, boundary, "text", "2트");
         writeFormField(outputStream, boundary, "created_date", "2024-06-01T18:34:00+09:00");
         writeFormField(outputStream, boundary, "published_date", "2024-06-01T18:34:00+09:00");
 
